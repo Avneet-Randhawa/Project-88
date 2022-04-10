@@ -50,7 +50,7 @@ function my_keydown(e)
 		document.getElementById("myCanvas").style.borderColor ="red";
 		canvas.remove(ball_object);
 	}
-	
+	else{
 		if(keyPressed == '38')
 		{
 			up();
@@ -72,7 +72,7 @@ function my_keydown(e)
 			console.log("right");
 		}
 	}
-
+}
 	function up()
 	{
 		if(ball_y >= 0){
