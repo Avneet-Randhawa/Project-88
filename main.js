@@ -1,4 +1,3 @@
-window.alert("Mam this project is not working correctly. I am not able to remove ball when the ball and the hole's x and y position is same.")
 canvas = new fabric.Canvas("myCanvas");
 
 ball_x =  0 ;
